@@ -1,0 +1,331 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  background-color: rgb(243, 239, 239);
+  position: relative;
+}
+
+.First-Section {
+  background: rgb(13, 0, 17);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.First-SectionMain {
+  width: 90%;
+  margin: auto auto;
+  padding-top: 2rem;
+  display: grid;
+  text-align: center;
+}
+.First-SectionMaintxt {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+.First-SectionMaintxt p {
+  margin-bottom: 2rem;
+}
+.First-SectionMaintxt h1 {
+  color: rgb(255, 174, 0);
+  font-size: 4rem;
+}
+.First-SectionMaintxt input,
+.info input {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background-color: gray;
+  outline: none;
+  border: 1px solid rgb(255, 174, 0);
+  color: #fff;
+  border-radius: 0.7rem;
+}
+.btn {
+  display: inline-block;
+  padding: 2rem 5rem;
+  background-color: rgb(255, 174, 0);
+  border-radius: 0.7rem;
+}
+.First-SectionMaintxt a:link,
+.First-SectionMaintxt a:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.First-SectionMaintxt input:focus {
+  padding: 2rem;
+}
+.slider {
+  width: 70%;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  background-color: darkgray;
+}
+.sliderTxt {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.companies {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.companies p {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+.companies img {
+  cursor: pointer;
+}
+
+.fetch {
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 0.7rem;
+}
+.ApiFetch {
+  width: 80%;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem auto;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.ApiFetch p {
+  font-size: 1.7rem;
+}
+#fetchCoin {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  text-align: center;
+}
+.EarnBuy,
+.buy,
+.about {
+  width: 80%;
+  margin: 2rem auto;
+}
+.EarnBuy h3,
+.buy h3,
+.about h3,
+.talk h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+.join {
+  text-align: center;
+}
+.about p {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+}
+.buyflex {
+  display: flex;
+  justify-content: space-between;
+}
+.buyflex p {
+  font-size: 1.7rem;
+}
+
+.EarnBuy a,
+.buy a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: black;
+}
+.Update p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.info a:link,
+.info a:visited {
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: black;
+  padding-left: 3rem;
+}
+.info {
+  text-align: center;
+}
+.form form {
+  width: 70%;
+  height: 40rem;
+  background-color: #fff;
+  display: block;
+  margin: auto auto;
+  text-align: center;
+  padding-top: 10rem;
+  border-radius: 0.7rem;
+}
+.form form p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.form form input {
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.form form a {
+  text-decoration: none;
+  padding: 2rem 5rem;
+  background-color: rgb(255, 174, 0);
+  border-radius: 0.7rem;
+  color: black;
+  font-size: 1.7rem;
+  display: inline-block;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.664);
+  z-index: 5;
+}
+.form {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 20%;
+  left: 0%;
+  z-index: 6;
+}
+.form i {
+  color: #fff;
+  font-size: 4rem;
+  margin: auto 14rem;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: rgb(43, 39, 39);
+  z-index: 3;
+}
+.logo a:link,
+.logo a:visited {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 0.3rem 2.4rem;
+  text-decoration: none;
+}
+nav ul {
+  position: fixed;
+  top: 5.8%;
+  right: -100%;
+  width: 30%;
+  text-align: center;
+  background-color: rgb(43, 39, 39);
+  transition: 0.3s;
+}
+nav ul.active {
+  right: 0%;
+}
+nav ul li {
+  list-style: none;
+  margin-bottom: 4rem;
+  padding: 0.2ren 2rem;
+}
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+.Ham {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-right: 1rem;
+  display: inline-block;
+  margin-top: 0.8rem;
+}
+
+.box {
+  background-color: #fff;
+  width: 90%;
+  /* height: 60vh; */
+  margin: 2rem auto;
+  box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.2);
+  border-radius: 0.7rem;
+
+  transition: transform 0.4s ease;
+  overflow: hidden;
+}
+.box:nth-child(even) {
+  transform: translateX(-200%);
+}
+.box.show {
+  transform: translateX(0%);
+}
+footer {
+  width: 100%;
+  background-color: rgb(226, 214, 214);
+  margin-top: 2rem;
+}
+.logo1 a {
+  font-size: 6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 2rem;
+}
+footer ul {
+  padding-top: 2rem;
+}
+footer ul li a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+footer ul li {
+  margin: 2rem 1rem;
+  width: inherit;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
