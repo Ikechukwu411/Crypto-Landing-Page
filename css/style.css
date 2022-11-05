@@ -329,3 +329,33 @@ footer ul li {
   list-style: none;
   justify-content: space-between;
 }
+
+#AnotherColor{
+ text-align: center;
+ color: grey;
+ display: inline;
+}
+.Apifetch div:nth-child(1){
+  text-align: center;
+}
+.Apifetch-btn{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+.Apifetch-btn button{
+  padding: 1rem 2rem;
+  background-color: rgb(255, 174, 0);
+  margin-left: 1rem;
+}
+
+#hideNav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 6;
+  display: none;
+}
