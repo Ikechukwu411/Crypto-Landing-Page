@@ -63,7 +63,7 @@ fetch("https://rest.coinapi.io/v1/trades/latest", obj)
       <p id="fetchCoin">Hot Coins</p>
       <div class="ApiFetch">
         <div>
-          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[0].symbol_id}</p>
+          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[0].price}</p>
           <p>${arr[0].price}</p>
         </div>
         <div>
@@ -77,7 +77,7 @@ fetch("https://rest.coinapi.io/v1/trades/latest", obj)
       </div>
       <div class="ApiFetch">
         <div>
-          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[1].symbol_id}</p>
+          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[1].price}</p>
           <p>${arr[1].price}</p>
         </div>
         <div>
@@ -91,7 +91,7 @@ fetch("https://rest.coinapi.io/v1/trades/latest", obj)
       </div>
       <div class="ApiFetch">
         <div>
-          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[2].symbol_id}</p>
+          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[2].price}</p>
           <p>${arr[2].price}</p>
         </div>
         <div>
@@ -105,7 +105,7 @@ fetch("https://rest.coinapi.io/v1/trades/latest", obj)
       </div>
       <div class="ApiFetch">
         <div>
-          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[3].symbol_id}</p>
+          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%"> ${arr[3].price}</p>
           <p>${arr[3].price}</p>
         </div>
         <div>
@@ -119,7 +119,7 @@ fetch("https://rest.coinapi.io/v1/trades/latest", obj)
       </div>
       <div class="ApiFetch">
         <div>
-          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%">${arr[4].symbol_id}</p>
+          <p id="AnotherColor"><img src="./img/products-5-2022101518.jpg" alt="" width="5%">${arr[4].price}</p>
           <p>${arr[4].price}</p>
         </div>
         <div>
